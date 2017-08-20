@@ -26,6 +26,9 @@ Usage
         window = MainWindow()
         sys.exit(app.exec_())
 
+Screenshot
+----------
+
 .. image:: imgs/example-graph.png
 
 License
