@@ -26,7 +26,7 @@ Usage
         window = MainWindow()
         sys.exit(app.exec_())
 
-.. image:: imgs/example-graph.png
+.. image:: (imgs/example-graph.png)
     :height: 200px
     :width: 200px
     :scale: 100 %
