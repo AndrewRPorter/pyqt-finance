@@ -48,6 +48,10 @@ class QStockWidget(QWidget):
         ax.plot(dates, data["Adj Close"])
         self.canvas.draw()
 
+    def clear(self):
+        """Clears the current graph"""
+        self.figure.clear()
+
 class InvalidTickerException(Exception):
     def __init__(self, ticker):
         self.msg = "Invalid ticker: " + ticker
