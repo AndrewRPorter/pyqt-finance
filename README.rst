@@ -2,6 +2,13 @@
 pyqt-finance
 ============
 
+Installation
+------------
+
+.. code::
+
+    python -m pip install pyqt-finance
+
 Usage
 -----
 
